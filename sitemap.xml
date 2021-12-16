@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/</loc>
+    <loc>https://imxty.github.io/blog/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>https://imxty.github.io/</loc>
   </url><url>
-    <loc>/series/</loc>
+    <loc>https://imxty.github.io/series/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://imxty.github.io/tags/</loc>
   </url>
 </urlset>
