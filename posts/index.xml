@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Hello Friend</title>
+        <link>https://imxty.github.io/posts/</link>
+        <description>Recent content in Posts on Hello Friend</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Wed, 15 Dec 2021 13:58:16 +0800</lastBuildDate>
+        <atom:link href="https://imxty.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>First Post</title>
+            <link>https://imxty.github.io/posts/first-post/</link>
+            <pubDate>Wed, 15 Dec 2021 13:58:16 +0800</pubDate>
+            
+            <guid>https://imxty.github.io/posts/first-post/</guid>
+            <description>平台   接口调用次数统计
+use platform; select app_id,count(*),api_hash from billing_api_consumption group by app_id,api_hash 接口和apihash的对应关系
+SubmitPulseTest&amp;ndash; -832952479 GetReport&amp;ndash; -488801682 SearchReports&amp;ndash; -913874297 GetRawData&amp;ndash; -69459196
+  </description>
+            <content type="html"><![CDATA[<h2 id="平台">平台</h2>
+<ul>
+<li>
+<p>接口调用次数统计</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql">use platform;
+<span style="color:#66d9ef">select</span> app_id,<span style="color:#66d9ef">count</span>(<span style="color:#f92672">*</span>),api_hash <span style="color:#66d9ef">from</span> billing_api_consumption <span style="color:#66d9ef">group</span> <span style="color:#66d9ef">by</span> app_id,api_hash
+</code></pre></div><p>接口和apihash的对应关系</p>
+<p>SubmitPulseTest&ndash; -832952479
+GetReport&ndash; -488801682
+SearchReports&ndash; -913874297
+GetRawData&ndash; -69459196</p>
+</li>
+</ul>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
